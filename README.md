@@ -1,4 +1,4 @@
-![SMTP LOGO](files/smtp.png)
+![SMTP LOGO](https://raw.githubusercontent.com/monticelli91/smtp_sender/main/files/smtp.png)
 
 ## SMTP Sender
 
