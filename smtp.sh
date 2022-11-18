@@ -13,6 +13,10 @@ EHLO $mail_server
 MAIL FROM: $mail_from
 rcpt to: $rcpt_to NOTIFY=success,failure
 DATA
+date: `date +%a,\ %d\ %b\ %Y\ %H:%M:%S\ %z`
+from: $mail_from
+to: $rcpt_to
+List-Unsubscribe: mailto: $mail_from
 Subject: $mail_subject
 $mail_content
 .
